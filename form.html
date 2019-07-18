@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>Введіть, будь ласка дані</h1></header>
+    <form action="https://formspree.io/klymash.vit@gmail.com" method="POST">
+        <label>Ваше ім'я
+            <input type="text" placeholder="Ваше ім'я" name="your-name" required>
+        </label>
+        <br>
+        <label>Ваш мобільний
+            <input type="number" placeholder="Ваш мобільний" name="your-phone" required>
+        </label>
+        <br>
+        <label>Ваш e-mail
+            <input type="email" placeholder="Ваш email" name="your-email" required>
+        </label>
+        <br>
+        <label>Чи бували ви раніше в таких подорожах?</label>
+            <label><input type="radio" name=trip value="Так" required>Так</label>
+           <label> <input type="radio" name=trip value="Ні" required>Ні</label>
+        <br>
+          <label>Коли б ви хотіли до нас завітати?</label>
+           <label><input type="date" ></label>
+           <label><input type="time" ></label>
+           <label><input type="radio" >Неважливо</label>
+        <br>
+        <label>
+            <input type="submit" >
+        </label>
+        <br>
+    </form>
+    <footer><h1><a href=index.html>Повернутись назад</a></h1></footer>
+</body>
+</html>
